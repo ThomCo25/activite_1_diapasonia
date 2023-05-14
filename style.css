@@ -1,0 +1,60 @@
+.container {
+    font-family: Arial, sans-serif;
+    width: 500px;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .drag-container, .drop-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .drag-item, .drop-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  .drag-item {
+    cursor: move;
+  }
+  .drop-item {
+    border: 2px dashed #ccc;
+  }
+  .drop-1 {
+    background-color: #ffcc00;
+  }
+  .drop-2 {
+    background-color: #00aaff;
+  }
+  .drop-3 {
+    background-color: #ff6666;
+  }
+  .drop-4 {
+    background-color: #99cc33;
+  }
+  
+  #check-button {
+    display: block;
+    margin: 20px auto;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #result {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
